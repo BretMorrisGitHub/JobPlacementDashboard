@@ -19,3 +19,14 @@ With this story, I was tasked with creating and implementing a method that could
 
 ## Create Accordian To Display All Rental Requests
 This story, I was tasked with changing a current web page that showed all rental requests in a table, to display the requests in a accordian instead, where clicking on the horizontal bars would reveal additional details about the rental request. This required some front-end work, and the use of Bootstrap to implement an accordian, while inserting the details into the required spots in the accordian.   
+
+
+## Sort Rental Requests and Hide Expired Rental Requests
+In this story, I was tasked to have the web page sort and display the rental requests by start date in ascending order. As well as have expired rental requests be hidden after a week has passed since the end time of the request when the page is loaded, and make a button that toggle between showing expired and current rentals.
+
+
+## Rental Survey Notification
+I was then assigned to make a button in the rental request that would appear on the last day of the rental request, that would invite the user to fill in a rental survey, as well as have the option to click a link that said "Ignore Survey". This required adding a boolean property to the RentalRequest model named "IgnoreSurveyPrompt" that would be set to false by default. This new property should be set to true if the user declines to fill in the survey (if they click "Ignore Survey"), and if a week has passed from the end date of the rental request and the user has not taken any action (neither declined nor filled in the survey).
+
+
+## Create Request Manager
