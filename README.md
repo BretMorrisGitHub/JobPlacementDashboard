@@ -22,7 +22,7 @@ This story, I was tasked with changing a current web page that showed all rental
 
 
 ## Sort Rental Requests and Hide Expired Rental Requests
-In this story, I was tasked to have the web page sort and display the rental requests by start date in ascending order. As well as have expired rental requests be hidden after a week has passed since the end time of the request when the page is loaded, and make a button that toggle between showing expired and current rentals.
+In this story, I was tasked to hav+e the web page sort and display the rental requests by start date in ascending order. As well as have expired rental requests be hidden after a week has passed since the end time of the request when the page is loaded, and make a button that toggle between showing expired and current rentals.
 
 
 ## Rental Survey Notification
@@ -30,3 +30,7 @@ I was then assigned to make a button in the rental request that would appear on 
 
 
 ## Create Request Manager
+After that I was assigned to create an admin for the Rental area called RequestManager that would have more access than a normal user would have. This required making a new model in the Rental area that extended from the User model, so it would inherit its properties, as well as adding two more unique properties to the RequestManager called "RejectedRequests", and "AcceptedRequests".
+
+
+## Seed Request Manager
