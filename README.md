@@ -34,3 +34,8 @@ After that I was assigned to create an admin for the Rental area called RequestM
 
 
 ## Seed Request Manager
+For this next story, I was asked to make it so everytime the webpage is loaded, an instance of RequestManager was seeded in the database for testing purposes. This required to create a seed method for RequestManager, and calling the method in the configuration file so that it loads everytime the web application is ran.
+
+
+## Easy Login Button
+This final story, I was tasked with making an easily accessible login button in the rental area, that logs the user in as a RequestManager when clicked if development/testing purposes are needed. A partial view was used to store the button for code reuseability, then rendered on the main layout page. Additionally, the button should only be displayed when the current user is not logged in. 
